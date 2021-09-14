@@ -6,19 +6,19 @@
     "Integer": null,
     "Bool": null,
     "Shape": [
-      "cube", "sphere", "cylinder"
+      "title", "text", "reference"
     ],
     "Color": [
       "gray", "red", "blue", "green", "brown", "purple", "cyan", "yellow"
     ],
     "Relation": [
-      "left", "right", "behind", "front"
+      "up", "down"
     ],
     "Size": [
       "small", "large"
     ],
     "Material": [
-      "rubber", "metal"
+      "paper", "journal"
     ]
   },
   "functions": [
