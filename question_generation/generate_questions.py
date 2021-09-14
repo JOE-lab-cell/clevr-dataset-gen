@@ -409,7 +409,7 @@ def instantiate_templates_dfs(scene_struct, template, metadata, answer_counts,
             next_input = len(state['nodes']) + len(new_nodes) - 1
           elif param_val is None:
             if metadata['dataset'] == 'CLEVR-v1.0' and param_type == 'Shape':
-              param_val = 'thing'
+              param_val = 'paragraph'
             else:
               param_val = ''
             cur_next_vals[param_name] = param_val
